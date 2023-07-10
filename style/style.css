@@ -45,7 +45,7 @@
 }
 .banner-button:hover{
     transform: scale(1.1);
-    box-shadow: 5px 10px #596a79;
+    box-shadow: 5px 10px #1e3244;
 }
 
 /* End Banner style */
@@ -132,3 +132,41 @@ main{
     font-weight: 500;
  }
  /* End My Plans Style */
+ /* start contact style */
+ .contact{
+    padding: 0px 0px 100px 0px;
+ }
+ .contact-me{
+    background-image:url(../asset/images/watch.png),linear-gradient(90deg, rgb(3, 99, 155) 25%, rgb(175 175 175 / 50%) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: overlay;
+    padding: 25px 25px 25px 50px;
+    border-radius: 10px;
+    color: white;
+ }
+ .contact-me >h1{
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 5px;
+ }
+ .call-button{
+    padding: 15px 25px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 15px;
+    transition: 0.5s all ease-in-out;
+}
+.call-button:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 10px #1e3244;
+}
+ /* End contact style */
+ /* Start footer style */
+ 
+ /* End footer style */
