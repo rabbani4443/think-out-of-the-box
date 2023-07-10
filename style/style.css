@@ -44,5 +44,53 @@
     font-weight: 600;
     margin-top: 15px;
 }
-
 /* End Banner style */
+ /* Start My failures style */
+ .failures-container{
+    width: 75%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 50px 0px 50px;
+    margin: auto;
+    gap: 75px;
+ }
+
+ .failures-img{
+    width: 451px;
+    /* height: 898px; */
+    
+ }
+ .failures-detailed{
+    width: 50%;
+ }
+.failures-title{
+    color:  #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+.failures-description{
+    color:#444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 25px 25px 15px 0px;
+ }
+ .failures-reasons {
+    list-style: none;
+  }
+  .failures-reasons-list{
+    color:#444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 5px 0px;
+  }
+.failures-reasons li:before {
+    content: '✓';
+    color: #16D887;
+    font-size: 20px;
+    padding-right: 10px;
+  }
+ /* End My failures style */
