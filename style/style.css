@@ -21,8 +21,6 @@
 }
 .banner-text{
     width: 50%;
-    /* display: flex;
-    justify-content: end; */
 }
 .banner-title{
     color: #FFF;
@@ -43,28 +41,33 @@
     font-size: 20px;
     font-weight: 600;
     margin-top: 15px;
+    transition: 0.5s all ease-in-out;
 }
+.banner-button:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 10px #596a79;
+}
+
 /* End Banner style */
+main{
+    width: 75%;
+    margin: auto;
+}
  /* Start My failures style */
  .failures-container{
-    width: 75%;
+    width: 100%;
     height: 100vh;
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    padding: 50px 50px 0px 50px;
-    margin: auto;
+    padding: 150px 0px 0px 0px;
     gap: 75px;
  }
 
  .failures-img{
-    width: 451px;
-    /* height: 898px; */
+    width: 550px;
     
  }
- .failures-detailed{
-    width: 50%;
- }
+
 .failures-title{
     color:  #151414;
     font-size: 40px;
@@ -85,7 +88,7 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    padding: 5px 0px;
+    padding-top: 5px;
   }
 .failures-reasons li:before {
     content: '✓';
@@ -94,3 +97,38 @@
     padding-right: 10px;
   }
  /* End My failures style */
+ /* Start My Plans Style */
+ .plans-container{
+    padding: 130px 0px;
+ }
+ .plans-title h1{
+    color:#151414;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 50px;
+ }
+
+ .plans-all-box{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+ }
+ .plan-box img{
+    width: 80px;
+    height: 80px;
+    padding-bottom: 15px;
+ }
+ .plan-box-title{
+    color:#151414;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 10px;
+ }
+ .plan-box-description{
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+ }
+ /* End My Plans Style */
